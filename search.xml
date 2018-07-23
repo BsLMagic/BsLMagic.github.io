@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2018/07/23/hello-world/"/>
+      <url>/2018/07/23/hello-world/</url>
+      <content type="html"><![CDATA[<p><img src="/home/limin/下载/head" alt="1" title="2"><br>   Hello World!这是一个崭新的开始，从这里起步，向未知的区域进行探索！</p>]]></content>
+      
+      <categories>
+          
+          <category> 综合 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+</search>
