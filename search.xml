@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F07%2F23%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Hello World!这是一个崭新的开始，从这里起步，向未知的区域进行探索！]]></content>
+    <content type="text"><![CDATA[Hello World! 这是一个崭新的开始，从这里起步，向未知的区域进行探索！ 123void print()&#123; cout&lt;&lt;&quot;Hello World&quot;&lt;&lt;endl;&#125;]]></content>
       <categories>
         <category>综合</category>
       </categories>
