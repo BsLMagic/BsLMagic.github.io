@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[markdown]]></title>
+    <url>%2F2018%2F07%2F30%2Fmarkdown%2F</url>
+    <content type="text"><![CDATA[#一些简易的Markdown语法 ####1.标题在作为标题的文字前加上#，几级标题便加上几个#（最多6级）123456#一级标题##二级标题###三级标题####四级标题#####五级标题######六级标题 效果如下： #一级标题 ##二级标题 ###三级标题 ####四级标题 #####五级标题 ######六级标题####2.缩进和居中1.使用特殊占位符后即可将文字进行缩进。123&amp;ensp; //输入一个空格&amp;nbsp;//输入一个空格&amp;emsp;//输入两个空格 ！注意分号不要丢2.12&lt;center&gt;内容1&lt;center&gt;//方法一&lt;div align=center&gt; 内容2 &lt;/div&gt;//方法二 ####3.字体属性设置123*斜体* _斜体_**粗体** __粗体__***粗斜体*** ___粗斜体___ 效果如下：斜体 _斜体_粗体 粗体粗斜体 粗斜体 ####4.列表在文字前加上 * 或 + 或 - 则构造无序列表；在文字前加上 数字. 即可生成有序列表1234* 1* 2- 3+ 4 效果如下： 1 2 3 41231. 52. 63. 7 5 6 7需要注意的是，在 *或1.后需加入空格 ####5.换行 可以使用html的标签&lt;/br&gt;来进行换行 ####6.链接链接的格式：[标题][URL &quot;描述&quot;]例如： 12[百度][https://www.baidu.com &quot;百度～&quot;]&lt;https://www.baidu.com&gt; 文字链接： [百度][https://www.baidu.com&quot;百度&quot;] 网址链接： https://www.baidu.com####7.图片添加图片的格式与链接类似，不同的是加入在[标题][URL&quot;描述&quot;]前加上了！1![实例1](markdown/实例1.png &quot;实例&quot;) ####8.分割线 使用方法：三个或三个以上的*或-即可形成分割线 ####9.引用1234&gt;1&gt;&gt;2&gt;&gt;&gt;3&gt;&gt;&gt;&gt;4 效果如下： 1 2 3 4]]></content>
+      <categories>
+        <category>综合</category>
+      </categories>
+      <tags>
+        <tag>-Markdown -hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python1]]></title>
+    <url>%2F2018%2F07%2F30%2Fpython1%2F</url>
+    <content type="text"><![CDATA[#python入门：一些需要注意的地方]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>-python -编程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F07%2F23%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Hello World! 这是一个崭新的开始，从这里起步，向未知的区域进行探索！ 123void print()&#123; cout&lt;&lt;&quot;Hello World&quot;&lt;&lt;endl;&#125;]]></content>
