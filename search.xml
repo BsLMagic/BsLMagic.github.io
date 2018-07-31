@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[markdown]]></title>
-    <url>%2F2018%2F07%2F30%2Fmarkdown%2F</url>
-    <content type="text"><![CDATA[一些简易的Markdown语法1.标题在作为标题的文字前加上#，几级标题便加上几个#（最多6级）123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 效果如下： 一级标题二级标题三级标题四级标题五级标题六级标题 2.缩进和居中1.使用特殊占位符后即可将文字进行缩进。123&amp;ensp; //输入一个空格&amp;nbsp;//输入一个空格&amp;emsp;//输入两个空格 ！注意分号不要丢 2.12&lt;center&gt;内容1&lt;center&gt;//方法一&lt;div align=center&gt; 内容2 &lt;/div&gt;//方法二 3.字体属性设置123*斜体* _斜体_**粗体** __粗体__***粗斜体*** ___粗斜体___ 效果如下：斜体 _斜体_粗体 粗体粗斜体 粗斜体 4.列表在文字前加上 * 或 + 或 - 则构造无序列表；在文字前加上 数字. 即可生成有序列表1234* 1* 2- 3+ 4 效果如下： 1 2 3 4 1231. 52. 63. 7 5 6 7 需要注意的是，在 *或1.后需加入空格 5.换行可以使用html的标签&lt;/br&gt;来进行换行 6.链接链接的格式：[标题](URL &quot;描述&quot;)例如： 12[百度](https://www.baidu.com &quot;百度～&quot;)&lt;https://www.baidu.com&gt; 文字链接： 百度网址链接： https://www.baidu.com 7.图片添加图片的格式与链接类似，不同的是加入在[标题](URL&quot;描述&quot;)前加上了！1![实例1](markdown/实例1.png &quot;实例&quot;) 8.分割线使用方法：三个或三个以上的*或-即可形成分割线 9.引用1234&gt;1&gt;&gt;2&gt;&gt;&gt;3&gt;&gt;&gt;&gt;4 效果如下： 1 2 3 4 10.表格12345标题一 |标题二 |标题三---------|--------|------内容一 |内容二 |内容三内容四 |内容五 |内容六内容七 | 内容八 |内容九 效果： 标题一 标题二 标题三 内容一 内容二 内容三 内容四 内容五 内容六 内容七 内容八 内容九 11.代码1.单行代码用ESC键下方的`括住所需显示的代码即可如： ` print “Hello world” `实现效果如下：print &quot;Hello world&quot; 2.多行代码用三个`将需要展示的部分括起来如：```a=10print a```效果：12a=10print a]]></content>
+    <title><![CDATA[Markdown基本语法]]></title>
+    <url>%2F2018%2F07%2F30%2FMarkdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[一些简易的Markdown语法1.标题在作为标题的文字前加上#，几级标题便加上几个#（最多6级）123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 效果如下： 2.缩进和居中1.使用特殊占位符后即可将文字进行缩进。123&amp;ensp; //输入一个空格&amp;nbsp;//输入一个空格&amp;emsp;//输入两个空格 ！注意分号不要丢 2.12&lt;center&gt;内容1&lt;center&gt;//方法一&lt;div align=center&gt; 内容2 &lt;/div&gt;//方法二 3.字体属性设置123*斜体* _斜体_**粗体** __粗体__***粗斜体*** ___粗斜体___ 效果如下：斜体 _斜体_粗体 粗体粗斜体 粗斜体 4.列表在文字前加上 * 或 + 或 - 则构造无序列表；在文字前加上 数字. 即可生成有序列表1234* 1* 2- 3+ 4 效果如下： 1 2 3 4 1231. 52. 63. 7 5 6 7 需要注意的是，在 *或1.后需加入空格 5.换行可以使用html的标签&lt;/br&gt;来进行换行 6.链接链接的格式：[标题](URL &quot;描述&quot;)例如： 12[百度](https://www.baidu.com &quot;百度～&quot;)&lt;https://www.baidu.com&gt; 文字链接： 百度网址链接： https://www.baidu.com 7.图片添加图片的格式与链接类似，不同的是加入在[标题](URL&quot;描述&quot;)前加上了！1![实例1](markdown/实例1.png &quot;实例&quot;) 8.分割线使用方法：三个或三个以上的*或-即可形成分割线 9.引用1234&gt;1&gt;&gt;2&gt;&gt;&gt;3&gt;&gt;&gt;&gt;4 效果如下： 1 2 3 4 10.表格12345标题一 |标题二 |标题三---------|--------|------内容一 |内容二 |内容三内容四 |内容五 |内容六内容七 | 内容八 |内容九 效果： 标题一 标题二 标题三 内容一 内容二 内容三 内容四 内容五 内容六 内容七 内容八 内容九 11.代码1.单行代码用ESC键下方的`括住所需显示的代码即可如： ` print “Hello world” `实现效果如下：print &quot;Hello world&quot; 2.多行代码用三个`将需要展示的部分括起来如：```a=10print a```效果：12a=10print a]]></content>
       <categories>
         <category>综合</category>
       </categories>
       <tags>
         <tag>-Markdown -hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[python1]]></title>
-    <url>%2F2018%2F07%2F30%2Fpython1%2F</url>
-    <content type="text"><![CDATA[#python入门：一些需要注意的地方]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>-python -编程</tag>
       </tags>
   </entry>
   <entry>
