@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Magic&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://BsLMagic.github.io/"/>
+  <updated>2018-08-01T08:32:10.167Z</updated>
+  <id>https://BsLMagic.github.io/</id>
+  
+  <author>
+    <name>Li Min</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown基本语法</title>
+    <link href="https://BsLMagic.github.io/2018/07/30/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <id>https://BsLMagic.github.io/2018/07/30/Markdown基本语法/</id>
+    <published>2018-07-30T08:28:22.000Z</published>
+    <updated>2018-08-01T08:32:10.167Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一些简易的Markdown语法"><a href="#一些简易的Markdown语法" class="headerlink" title="一些简易的Markdown语法"></a>一些简易的Markdown语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><p>在作为标题的文字前加上#，几级标题便加上几个#（最多6级）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure></p><p>效果如下：<br><a id="more"></a><br><img src="/2018/07/30/Markdown基本语法/biaoti.png" alt=""> </p><hr><h2 id="2-缩进和居中"><a href="#2-缩进和居中" class="headerlink" title="2.缩进和居中"></a>2.缩进和居中</h2><p>1.使用特殊占位符后即可将文字进行缩进。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&amp;ensp; //输入一个空格</span><br><span class="line">&amp;nbsp;//输入一个空格</span><br><span class="line">&amp;emsp;//输入两个空格</span><br></pre></td></tr></table></figure></p><p><strong>！注意分号不要丢</strong></p><p>2.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;center&gt;内容1&lt;center&gt;//方法一</span><br><span class="line">&lt;div align=center&gt; 内容2 &lt;/div&gt;//方法二</span><br></pre></td></tr></table></figure></p><hr><h2 id="3-字体属性设置"><a href="#3-字体属性设置" class="headerlink" title="3.字体属性设置"></a>3.字体属性设置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*斜体*   _斜体_</span><br><span class="line">**粗体**  __粗体__</span><br><span class="line">***粗斜体***  ___粗斜体___</span><br></pre></td></tr></table></figure><p>效果如下：<br><em>斜体</em>   _斜体_<br><strong>粗体</strong>  <strong>粗体</strong><br><strong><em>粗斜体</em></strong>  <strong><em>粗斜体</em></strong></p><hr><h2 id="4-列表"><a href="#4-列表" class="headerlink" title="4.列表"></a>4.列表</h2><p>在文字前加上 * 或 + 或 - 则构造无序列表；在文字前加上 数字. 即可生成有序列表<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">* 1</span><br><span class="line">* 2</span><br><span class="line">- 3</span><br><span class="line">+ 4</span><br></pre></td></tr></table></figure></p><p>效果如下：</p><ul><li>1</li><li>2</li></ul><ul><li>3</li></ul><ul><li>4</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 5</span><br><span class="line">2. 6</span><br><span class="line">3. 7</span><br></pre></td></tr></table></figure><ol><li>5</li><li>6</li><li>7</li></ol><p><strong>需要注意的是，在 <code>*</code>或<code>1.</code>后需加入空格</strong></p><hr><h2 id="5-换行"><a href="#5-换行" class="headerlink" title="5.换行"></a>5.换行</h2><p>可以使用html的标签<code>&lt;/br&gt;</code>来进行换行</p><hr><h2 id="6-链接"><a href="#6-链接" class="headerlink" title="6.链接"></a>6.链接</h2><p>链接的格式：<code>[标题](URL &quot;描述&quot;)</code><br>例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[百度](https://www.baidu.com  &quot;百度～&quot;)</span><br><span class="line">&lt;https://www.baidu.com&gt;</span><br></pre></td></tr></table></figure><p>文字链接：   <a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a><br>网址链接：   <a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></p><hr><h2 id="7-图片"><a href="#7-图片" class="headerlink" title="7.图片"></a>7.图片</h2><p>添加图片的格式与链接类似，不同的是加入在<code>[标题](URL&quot;描述&quot;)</code>前加上了<code>！</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![实例1](markdown/实例1.png  &quot;实例&quot;)</span><br></pre></td></tr></table></figure></p><p><img src="/2018/07/30/Markdown基本语法/实例1.png" alt="实例1" title="实例"></p><hr><h2 id="8-分割线"><a href="#8-分割线" class="headerlink" title="8.分割线"></a>8.分割线</h2><p>使用方法：三个或三个以上的<code>*</code>或<code>-</code>即可形成分割线</p><hr><h2 id="9-引用"><a href="#9-引用" class="headerlink" title="9.引用"></a>9.引用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;1</span><br><span class="line">&gt;&gt;2</span><br><span class="line">&gt;&gt;&gt;3</span><br><span class="line">&gt;&gt;&gt;&gt;4</span><br></pre></td></tr></table></figure><p>效果如下：</p><blockquote><p>1</p><blockquote><p>2</p><blockquote><p>3</p><blockquote><p>4</p></blockquote></blockquote></blockquote></blockquote><hr><h2 id="10-表格"><a href="#10-表格" class="headerlink" title="10.表格"></a>10.表格</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">标题一 |标题二 |标题三</span><br><span class="line">---------|--------|------</span><br><span class="line">内容一 |内容二 |内容三</span><br><span class="line">内容四 |内容五 |内容六</span><br><span class="line">内容七 | 内容八 |内容九</span><br></pre></td></tr></table></figure><p>效果：</p><table><thead><tr><th>标题一</th><th>标题二</th><th>标题三</th></tr></thead><tbody><tr><td>内容一</td><td>内容二</td><td>内容三</td></tr><tr><td>内容四</td><td>内容五</td><td>内容六</td></tr><tr><td>内容七</td><td>内容八</td><td>内容九</td></tr></tbody></table><hr><h2 id="11-代码"><a href="#11-代码" class="headerlink" title="11.代码"></a>11.代码</h2><p>1.单行代码用ESC键下方的`括住所需显示的代码即可<br>如： ` print “Hello world” `实现效果如下：<br><code>print &quot;Hello world&quot;</code></p><p>2.多行代码用三个`将需要展示的部分括起来<br>如：<br>```<br>a=10<br>print a<br>```<br>效果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=10</span><br><span class="line">print a</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一些简易的Markdown语法&quot;&gt;&lt;a href=&quot;#一些简易的Markdown语法&quot; class=&quot;headerlink&quot; title=&quot;一些简易的Markdown语法&quot;&gt;&lt;/a&gt;一些简易的Markdown语法&lt;/h1&gt;&lt;h2 id=&quot;1-标题&quot;&gt;&lt;a href=&quot;#1-标题&quot; class=&quot;headerlink&quot; title=&quot;1.标题&quot;&gt;&lt;/a&gt;1.标题&lt;/h2&gt;&lt;p&gt;在作为标题的文字前加上#，几级标题便加上几个#（最多6级）&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 一级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;## 二级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;### 三级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#### 四级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##### 五级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;###### 六级标题&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;效果如下：&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="综合" scheme="https://BsLMagic.github.io/categories/%E7%BB%BC%E5%90%88/"/>
+    
+    
+      <category term="Markdown" scheme="https://BsLMagic.github.io/tags/Markdown/"/>
+    
+      <category term="博客" scheme="https://BsLMagic.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://BsLMagic.github.io/2018/07/23/hello-world/"/>
+    <id>https://BsLMagic.github.io/2018/07/23/hello-world/</id>
+    <published>2018-07-23T05:52:00.000Z</published>
+    <updated>2018-08-01T08:12:52.883Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World!"></a>Hello World!</h1><div align="center"><br><img src="/2018/07/23/hello-world/宇宙.jpg" width="400" height="250"><br></div><hr><ul><li>这是一个崭新的开始，从这里起步，向未知的区域进行探索！ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">void print()&#123;</span><br><span class="line">cout&lt;&lt;&quot;Hello World&quot;&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello World!&quot;&gt;&lt;/a&gt;Hello World!&lt;/h1&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/
+      
+    
+    </summary>
+    
+      <category term="综合" scheme="https://BsLMagic.github.io/categories/%E7%BB%BC%E5%90%88/"/>
+    
+    
+      <category term="-hexo" scheme="https://BsLMagic.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
